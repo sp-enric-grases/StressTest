@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 313e424ee5bf6fb4f81f64f48ad9bdcd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Point001
+    100002: R_ShoulderPad_posPivot
+    100004: ref
+    100006: Rogue_02_Arrow
+    100008: Rogue_02_Bow
+    100010: Rogue_02_Bow_String
+    100012: Rogue_02_Chest
+    100014: Rogue_02_Hair01
+    100016: Rogue_02_Hair02
+    100018: Rogue_02_Hair03
+    100020: Rogue_02_Hair04
+    100022: Rogue_02_Hair05
+    100024: Rogue_02_Head
+    100026: Rogue_02_Hips
+    100028: Rogue_02_L_Hair
+    100030: Rogue_02_LArm1
+    100032: Rogue_02_LArm2
+    100034: Rogue_02_LArmCollarbone
+    100036: Rogue_02_LArmDigit11
+    100038: Rogue_02_LArmDigit12
+    100040: Rogue_02_LArmDigit13
+    100042: Rogue_02_LArmDigit21
+    100044: Rogue_02_LArmDigit22
+    100046: Rogue_02_LArmDigit23
+    100048: Rogue_02_LArmDigit31
+    100050: Rogue_02_LArmDigit32
+    100052: Rogue_02_LArmDigit33
+    100054: Rogue_02_LArmPalm
+    100056: Rogue_02_LArmUpVectorNode
+    100058: Rogue_02_LLeg1
+    100060: Rogue_02_LLeg2
+    100062: Rogue_02_LLegAnkle
+    100064: Rogue_02_LLegDigit11
+    100066: Rogue_02_LLegPlatform
+    100068: Rogue_02_Neck
+    100070: Rogue_02_R_Hair
+    100072: Rogue_02_R_ShoulderPad
+    100074: Rogue_02_RArm1
+    100076: Rogue_02_RArm2
+    100078: Rogue_02_RArmCollarbone
+    100080: Rogue_02_RArmDigit11
+    100082: Rogue_02_RArmDigit12
+    100084: Rogue_02_RArmDigit13
+    100086: Rogue_02_RArmDigit21
+    100088: Rogue_02_RArmDigit22
+    100090: Rogue_02_RArmDigit23
+    100092: Rogue_02_RArmDigit31
+    100094: Rogue_02_RArmDigit32
+    100096: Rogue_02_RArmDigit33
+    100098: Rogue_02_RArmPalm
+    100100: Rogue_02_RArmUpVectorNode
+    100102: Rogue_02_RLeg1
+    100104: Rogue_02_RLeg2
+    100106: Rogue_02_RLegAnkle
+    100108: Rogue_02_RLegDigit11
+    100110: Rogue_02_RLegPlatform
+    100112: Rogue_02_Spine1
+    100114: Rogue_02_Spine2
+    100116: //RootNode
+    400000: Point001
+    400002: R_ShoulderPad_posPivot
+    400004: ref
+    400006: Rogue_02_Arrow
+    400008: Rogue_02_Bow
+    400010: Rogue_02_Bow_String
+    400012: Rogue_02_Chest
+    400014: Rogue_02_Hair01
+    400016: Rogue_02_Hair02
+    400018: Rogue_02_Hair03
+    400020: Rogue_02_Hair04
+    400022: Rogue_02_Hair05
+    400024: Rogue_02_Head
+    400026: Rogue_02_Hips
+    400028: Rogue_02_L_Hair
+    400030: Rogue_02_LArm1
+    400032: Rogue_02_LArm2
+    400034: Rogue_02_LArmCollarbone
+    400036: Rogue_02_LArmDigit11
+    400038: Rogue_02_LArmDigit12
+    400040: Rogue_02_LArmDigit13
+    400042: Rogue_02_LArmDigit21
+    400044: Rogue_02_LArmDigit22
+    400046: Rogue_02_LArmDigit23
+    400048: Rogue_02_LArmDigit31
+    400050: Rogue_02_LArmDigit32
+    400052: Rogue_02_LArmDigit33
+    400054: Rogue_02_LArmPalm
+    400056: Rogue_02_LArmUpVectorNode
+    400058: Rogue_02_LLeg1
+    400060: Rogue_02_LLeg2
+    400062: Rogue_02_LLegAnkle
+    400064: Rogue_02_LLegDigit11
+    400066: Rogue_02_LLegPlatform
+    400068: Rogue_02_Neck
+    400070: Rogue_02_R_Hair
+    400072: Rogue_02_R_ShoulderPad
+    400074: Rogue_02_RArm1
+    400076: Rogue_02_RArm2
+    400078: Rogue_02_RArmCollarbone
+    400080: Rogue_02_RArmDigit11
+    400082: Rogue_02_RArmDigit12
+    400084: Rogue_02_RArmDigit13
+    400086: Rogue_02_RArmDigit21
+    400088: Rogue_02_RArmDigit22
+    400090: Rogue_02_RArmDigit23
+    400092: Rogue_02_RArmDigit31
+    400094: Rogue_02_RArmDigit32
+    400096: Rogue_02_RArmDigit33
+    400098: Rogue_02_RArmPalm
+    400100: Rogue_02_RArmUpVectorNode
+    400102: Rogue_02_RLeg1
+    400104: Rogue_02_RLeg2
+    400106: Rogue_02_RLegAnkle
+    400108: Rogue_02_RLegDigit11
+    400110: Rogue_02_RLegPlatform
+    400112: Rogue_02_Spine1
+    400114: Rogue_02_Spine2
+    400116: //RootNode
+    7400000: Rogue_02_ultimate
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rogue_02_ultimate
+      takeName: Rogue_02_ultimate
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

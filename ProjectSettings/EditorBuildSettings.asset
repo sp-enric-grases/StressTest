@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DiagnosisSelector.unity
+    guid: 90dbdd81635c6d34c902bff55b7413fd
+  - enabled: 1
+    path: Assets/Scenes/DiagnosisPanel.unity
+    guid: ac9641e946b66674d9b9a28110d9a9fd
+  - enabled: 1
+    path: Assets/Scenes/AutomaticDiagnosis.unity
+    guid: e02c89bf77ae164439d508abdfe5f8fb
+  - enabled: 1
+    path: Assets/Scenes/ManualMainScene.unity
+    guid: 5bb1a4075cc9bbc44a86975e89441ee2
+  - enabled: 1
+    path: Assets/Scenes/SampleTrisVerts.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/SampleDrawCalls.unity
+    guid: 52d0c52512f7b634ba2dfe9f1a924126
+  - enabled: 1
+    path: Assets/Scenes/SampleSpine.unity
+    guid: 3fca4f2498b07ba4facd4e647485dac5
+  - enabled: 1
+    path: Assets/Scenes/SampleSkinnedMesh.unity
+    guid: 10c04da00d0ed71439778ddb95c68fb0
+  - enabled: 1
+    path: Assets/Scenes/SampleShader.unity
+    guid: 6083e292f897a8a46b8466da982497b0
+  m_configObjects: {}
