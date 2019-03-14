@@ -24,6 +24,8 @@ namespace SP.Tools.StressTest
         {
             if (diagnosi.isActiveForTesting)
             {
+                Debug.Log("Loading " + diagnosi.scene);
+
                 StartCoroutine(StartTest());
                 DestroyImmediate(cam.GetComponent<CameraOrbit_v2>());
                 DestroyImmediate(canvas);

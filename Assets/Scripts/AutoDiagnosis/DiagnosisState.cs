@@ -16,7 +16,7 @@ namespace SP.Tools.StressTest
         public static int downLimit60 = 55;
         public static bool activate30Limit;
         public static int downLimit30 = 15;
-        public static bool changeEveryScene;
+        public static bool changeEveryScene = true;
         public static bool saveLog;
         public static string log = string.Empty;
 

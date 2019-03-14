@@ -93,7 +93,7 @@ namespace SocialPoint.Tools
 
         private void CreateTarget()
         {
-            Debug.Log("<color=cyan>[CAMERA ORBIT]</color> '<b>Target</b>' doesn't exist. Creating a target automatically...");
+            //Debug.Log("<color=cyan>[CAMERA ORBIT]</color> '<b>Target</b>' doesn't exist. Creating a target automatically...");
             GameObject target = new GameObject("target");
             target.transform.position = targetPosition;
             RotationConstraint rotConst = target.AddComponent<RotationConstraint>();

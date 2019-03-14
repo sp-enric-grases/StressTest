@@ -15,9 +15,10 @@ namespace SP.Tools.StressTest
 
         private void Start()
         {
+            Debug.Log("Loading Autodiagnosis Scene");
+
             Screen.sleepTimeout = SleepTimeout.NeverSleep;
             DiagnosisState.diagnosisIsDone = false;
-            canvas.SetActive(false);
             CreateInstance();
         }
 
@@ -26,6 +27,7 @@ namespace SP.Tools.StressTest
             if (!instance)
             {
                 instance = this;
+                canvas.SetActive(false);
                 DontDestroyOnLoad(gameObject);
                 WriteSpecifications();
                 StartTest();
@@ -39,7 +41,7 @@ namespace SP.Tools.StressTest
 
         void StartTest()
         {
-            //if (DiagnosisState.changeEveryScene)
+            if (DiagnosisState.changeEveryScene)
             {
                 if (DiagnosisState.iteration > 0)
                 {
@@ -98,7 +100,7 @@ namespace SP.Tools.StressTest
                 "Graphics memory:\t" + SystemInfo.graphicsMemorySize.ToString() + "\n" +
                 "O.S.:\t\t" + SystemInfo.operatingSystem + "\n" +
                 "O.S. Family:\t" + SystemInfo.operatingSystemFamily.ToString() + "\n" +
-                "Processor:\t" + SystemInfo.processorType + "\n" +
+                "Processor:\t\t" + SystemInfo.processorType + "\n" +
                 "Cores:\t\t" + SystemInfo.processorCount.ToString() + "\n\n" +
                 "60 FPS Limit:\t" + DiagnosisState.downLimit60 + "\n" +
                 (DiagnosisState.activate30Limit ? "30 FPS Limit:\t" + DiagnosisState.downLimit30 : "30 FPS Test not activated") + "\n\n" +
