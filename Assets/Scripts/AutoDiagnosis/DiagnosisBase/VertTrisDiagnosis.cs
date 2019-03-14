@@ -82,7 +82,7 @@ namespace SP.Tools.StressTest
             {
                 if (DiagnosisState.activate30Limit)
                 {
-                    diagnosi.log += string.Format("\nAVERAGE         {0,2}fps:  Verts:{1,11}  Tris:{2,11}     {3,2}fps:  Verts:{4,11}  Tris:{5,11}\n{6}",
+                    diagnosi.log += string.Format("\nAVERAGE        {0,2}fps  Verts:{1,11}  Tris:{2,11}     {3,2}fps  Verts:{4,11}  Tris:{5,11}\n{6}",
                         DiagnosisState.downLimit60,
                         GetAverage(DiagnosisState.numberOfVertices60),
                         GetAverage(DiagnosisState.numberOfTriangles60),
@@ -93,7 +93,7 @@ namespace SP.Tools.StressTest
                 }
                 else
                 {
-                    diagnosi.log += string.Format("\nAVERAGE         {0,2}fps:  Verts:{1,11}  Tris:{2,11}\n{3}",
+                    diagnosi.log += string.Format("\nAVERAGE        {0,2}fps  Verts:{1,11}  Tris:{2,11}\n{3}",
                         DiagnosisState.downLimit60,
                         GetAverage(DiagnosisState.numberOfVertices60),
                         GetAverage(DiagnosisState.numberOfTriangles60),
