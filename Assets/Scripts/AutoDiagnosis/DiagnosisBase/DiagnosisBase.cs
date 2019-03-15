@@ -40,7 +40,8 @@ namespace SP.Tools.StressTest
 
         protected IEnumerator Test()
         {
-            yield return new WaitForEndOfFrame();
+            //yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(0.05f);
 
             if (FPSCounterInternal.Instance.AverageFPS > DiagnosisState.downLimit60 || FPSCounterInternal.Instance.AverageFPS < DiagnosisState.spikeWarning)
             {
