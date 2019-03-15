@@ -52,17 +52,17 @@ namespace SP.Tools.StressTest
 
         public void SetParameters()
         {
-            DiagnosisState.cooldown = (float)Convert.ToInt32(cooldown.textComponent.text) / 1000;
-            DiagnosisState.iterations = Convert.ToInt32(iterations.textComponent.text);
+            DiagnosisState.cooldown = float.Parse(cooldown.text) / (float)1000;
+            DiagnosisState.iterations = int.Parse(iterations.text);
             DiagnosisState.iteration = DiagnosisState.iterations;
-            DiagnosisState.threshold = (float)Convert.ToInt32(threshold.textComponent.text) / 100;
-            DiagnosisState.downLimit60 = Convert.ToInt32(downLimit60FPS.textComponent.text);
+            DiagnosisState.threshold = (float)int.Parse(threshold.text) / 100;
+            DiagnosisState.downLimit60 = int.Parse(downLimit60FPS.text);
             DiagnosisState.activate30Limit = activate30FPS.isOn;
-            DiagnosisState.downLimit30 = Convert.ToInt32(downLimit30FPS.textComponent.text);
+            DiagnosisState.downLimit30 = int.Parse(downLimit30FPS.text);
             DiagnosisState.changeEveryScene = changeEveryScene.isOn;
             DiagnosisState.saveLog = saveLog.isOn;
             DiagnosisState.nameLog = nameLog.textComponent.text;
-            
+
             DiagnosisState.drawCallsDG = new Diagnosi()
             {
                 isActiveForTesting = drawCalls.isOn,
